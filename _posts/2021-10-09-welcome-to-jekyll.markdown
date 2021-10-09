@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Welcome to Jekyll!"
 date:   2021-10-09 01:41:14 -0700
 categories: jekyll update
@@ -14,7 +14,7 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
+{% highlight python %}
 def print_hi(name)
   puts "Hi, #{name}"
 end

@@ -1,0 +1,9 @@
+---
+layout: single
+title:  "This is my first post with jekyll!"
+date: 2021-10-09 01:41:14 -0700
+author: Ezekiel Kim
+---
+
+
+I am currently trying to figure everything out, but it looks really fun to blog with this, so I thought I might as well try. Id like to think of this as my `hello world` post.
