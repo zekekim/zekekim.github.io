@@ -10,26 +10,27 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "zblog"
+title                    : "salscapone"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "ezekiel kim"
+name                     : "Ezekiel Kim"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : zekekim/zekekim.github.io
+repository               : "zekekim/zekekim.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-   provider              : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -42,12 +43,12 @@ comments:
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
-    giscus:
+  giscus:
     repo_id              : "R_kgDOGMAYww"
     category_name        : "Announcements"
     category_id          : "DIC_kwDOGMAYw84B_XgS"
     discussion_term      : "pathname"
-    reactions_enabled    : 1
+    reactions_enabled    : '1'
     theme                : "dark_dimmed"
   staticman:
     branch               : # "master"
@@ -100,18 +101,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "ezekiel kim"
+  name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "i am an **amazing** person."
-  location         : "somewhere"
-  email            : ezekieljkim@gmail.com
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:ezekieljkim@gmail.com"
+      url: "mailto:ezekieljkim@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://zekekim.github.io"
+      url: "https://zekekim.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -225,8 +226,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -287,5 +288,3 @@ defaults:
       comments: true
       share: true
       related: true
-
-JEKYLL_ENV=production
