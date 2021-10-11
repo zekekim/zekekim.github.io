@@ -1,7 +1,7 @@
 ---
-layout: single
-title:  "Rohan's back"
+title: rohan's back
 categories: diary
+tags: thinking friends happiness
 ---
 
 Today I worked from 11-5. I've been having this really strong pain in my ear for the past few days so I didn't really get enough sleep and came into work late lol. I looked at my check today, and realized it read 410.

@@ -1,7 +1,6 @@
 ---
 layout: single
 title:  "This is my first post with jekyll!"
-date: 2021-10-09 01:41:14 -0700
 author: Ezekiel Kim
 ---
 
