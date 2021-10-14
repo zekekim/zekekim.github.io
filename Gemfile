@@ -16,6 +16,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins# If you want to use GitHub Pa
 gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'jemoji'
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-remote-theme"
 end
@@ -32,3 +33,4 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
 gem "webrick", "~> 1.7"
+
