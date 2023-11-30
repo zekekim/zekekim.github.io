@@ -28,8 +28,8 @@ export default function Home() {
 
 	return (
 		<main className="flex flex-col items-start justify-between">
-			<div className="flex max-h-screen md:flex-row flex-col md:items-start items-center justify-center p-24 gap-32">
-				<div className="flex flex-col max-w-sm items-start justify-start gap-10">
+			<div className="flex max-h-screen md:flex-row flex-col md:p-24 p-5 md:gap-32 gap-10">
+				<div className="flex flex-col max-w-sm items-start justify-center gap-10">
 					<h1 className="text-5xl">Ezekiel Kim</h1>
 					<p>
 						A computer science student @ UCLA passionate about audio
@@ -38,7 +38,7 @@ export default function Home() {
 						to create cutting-edge solutions. My portfolio consists of mainly
 						fullstack projects focused on direct consumer attention as well as
 						projects focused on developer environments. I spend most of my free
-						time playing 🎸 guitar and bass guitar, and configuring my{' '}
+						time playing 🎸 guitar and bass guitar, and configuring my {' '}
 						<Link
 							href="https://github.com/zekekim/dotfiles"
 							className="underline hover:font-bold"
@@ -160,7 +160,7 @@ export default function Home() {
 							<></>
 						)}
 					</div>
-					<div className="flex flex-col items-start justify-start">
+					<div className="flex flex-col items-start justify-start pb-10">
 						<button
 							className="flex flex-row items-center justify-center gap-2"
 							onClick={toggleDemos}
