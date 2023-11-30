@@ -47,6 +47,7 @@ export default function Home() {
 						</Link>
 						.
 					</p>
+          
 					<Link
 						href="/Ezekiel_Kim_Resume.pdf"
 						className="text-lg underline hover:font-bold"
@@ -59,6 +60,13 @@ export default function Home() {
 					>
 						linkedin
 					</Link>
+          <Link
+						href="https://github.com/zekekim"
+						className="text-lg underline hover:font-bold"
+					>
+						github
+					</Link>
+
 					<Link
 						href="mailto:zekekim@ucla.edu"
 						className="text-lg underline hover:font-bold"
