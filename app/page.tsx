@@ -94,9 +94,6 @@ export default function Home() {
 									An iOS nutrition app providing UCLA dining hall suggestions
 									based on your macros and desired diet.
 								</p>
-								<Link href="" className="underline hover:font-bold">
-									Github
-								</Link>
 							</>
 						) : (
 							<></>
